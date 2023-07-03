@@ -1334,6 +1334,11 @@ ol {
     font-family: 'Open Sans', sans-serif;
 }
 
+.text__desc__p{
+    color: black;
+    font-family: 'Open Sans', sans-serif;   
+}
+
 /*---------------------
   Testimonial
 -----------------------*/
