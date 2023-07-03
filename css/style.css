@@ -1318,6 +1318,7 @@ ol {
 
 .about__text {
     padding-left: 30px;
+    color: red;
 }
 
 .about__text .services__item .services__item__icon:after {
@@ -1328,6 +1329,10 @@ ol {
     margin-top: -10px;
 }
 
+.about__text__desc__p{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
 
 /*---------------------
   Testimonial
