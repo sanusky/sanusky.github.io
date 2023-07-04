@@ -1331,6 +1331,7 @@ ol {
 
 .about__text__desc__p{
     color: black;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -1703,7 +1704,7 @@ ol {
 }
 
 .carousel-item .about-img {
-    height: 60vh !important;
+    height: 90vh !important;
 }
 
 
