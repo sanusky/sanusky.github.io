@@ -1327,12 +1327,16 @@ ol {
 
 .about__text__desc {
     margin-top: -10px;
+    width: 150%;
+
 }
 
 .about__text__desc__p{
     color: black;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    line-height: 150%;
 }
 
 .text__desc__p{
@@ -1704,7 +1708,7 @@ ol {
 }
 
 .carousel-item .about-img {
-    height: 90vh !important;
+    height: 50vh !important;
 }
 
 
