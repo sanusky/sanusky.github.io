@@ -1317,7 +1317,7 @@ ol {
 }
 
 .about__text {
-    padding-left: 30px;
+    padding-left: 10px;
     color: red;
 }
 
@@ -1327,7 +1327,7 @@ ol {
 
 .about__text__desc {
     margin-top: -10px;
-    width: 150%;
+    width: 120%;
 
 }
 
@@ -1335,7 +1335,6 @@ ol {
     color: black;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-/*    text-align: justify;*/
 }
 
 .text__desc__p{
