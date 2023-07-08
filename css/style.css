@@ -1336,7 +1336,6 @@ ol {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    line-height: 150%;
 }
 
 .text__desc__p{
@@ -1708,7 +1707,7 @@ ol {
 }
 
 .carousel-item .about-img {
-    height: 50vh !important;
+    height: 60vh !important;
 }
 
 
