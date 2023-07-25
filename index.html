@@ -42,7 +42,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" type="text/css">
         <link rel="icon" type="image/x-icon" href="img/degierengineering_logo.ico">
         <link rel="stylesheet" href="css/carousel.css" type="text/css">
-        
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <!-- chat -->
         <!-- <script src="//code.tidio.co/cwguvveqkqmfl9hldsuz8ngpjfnl6kb3.js" async></script> -->
         <!-- <script src="https://code.tidio.co/8mlbhyhqidg17ul32kghftd9cgahxblr.js" async></script> -->
@@ -405,12 +405,18 @@
                 </div>
                 <div class="col-lg-6 col-md-6 " style=" box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px">
                     <div class="contact__form mt-5">
+                        
+
                         <form id="my-form" action="https://formspree.io/f/myyqgldd" method="POST">
                             <input type="text" name="name" placeholder="Your Name">
                             <input type="email" name="email" placeholder="E-mail Address">
                             <textarea name="message" placeholder="Your Message" style="height:200px"></textarea>
+                            
+                          <div class="g-recaptcha" data-sitekey="6Le2kFMnAAAAANaC0Ylzvw1DmFnYCXO-7knfFXgv"></div> <!-- replace with your recaptcha SITE key not secret key -->
                             <button type="submit" class="site-btn">Send Message <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                         </form>
+
+
                     </div>
                 </div>
             </div>
